@@ -1,0 +1,10 @@
+import Foundation
+
+class ___FILEBASENAMEASIDENTIFIER___Impl {
+    
+}
+
+//MARK: - ___FILEBASENAMEASIDENTIFIER___
+extension ___FILEBASENAMEASIDENTIFIER___Impl: ___FILEBASENAMEASIDENTIFIER___  {
+    
+}

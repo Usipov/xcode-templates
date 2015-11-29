@@ -1,0 +1,10 @@
+import UIKit
+
+class ___FILEBASENAMEASIDENTIFIER___ViewImpl: UIView {
+    
+}
+
+//MARK: - ___FILEBASENAMEASIDENTIFIER___View
+extension ___FILEBASENAMEASIDENTIFIER___ViewImpl: ___FILEBASENAMEASIDENTIFIER___View  {
+    
+}
