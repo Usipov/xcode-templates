@@ -1,7 +1,7 @@
 import UIKit
 
 class ___FILEBASENAMEASIDENTIFIER___ViewController: UIViewController {
-    
+
 }
 
 //MARK: - ___FILEBASENAMEASIDENTIFIER___View
