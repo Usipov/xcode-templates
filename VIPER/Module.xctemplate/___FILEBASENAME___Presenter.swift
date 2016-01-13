@@ -5,7 +5,7 @@ class ___FILEBASENAMEASIDENTIFIER___Presenter {
     weak var viewInput: ___FILEBASENAMEASIDENTIFIER___ViewInput?
     
     //MARK: - Init
-    init(nteractor: ___FILEBASENAMEASIDENTIFIER___Interactor){
+    init(interactor: ___FILEBASENAMEASIDENTIFIER___Interactor){
         self.interactor = interactor
     }
     
