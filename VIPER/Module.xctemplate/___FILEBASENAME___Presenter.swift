@@ -1,12 +1,11 @@
 import Foundation
 
 class ___FILEBASENAMEASIDENTIFIER___Presenter {
-
- 	let interactor: ___FILEBASENAMEASIDENTIFIER___Interactor
- 	let view: ___FILEBASENAMEASIDENTIFIER___View
+    private let interactor: ___FILEBASENAMEASIDENTIFIER___Interactor
+    weak var viewInput: ___FILEBASENAMEASIDENTIFIER___ViewInput?
     
-    init(view: ___FILEBASENAMEASIDENTIFIER___View, interactor: ___FILEBASENAMEASIDENTIFIER___Interactor){
-        self.view = view
+    //MARK: - Init
+    init(nteractor: ___FILEBASENAMEASIDENTIFIER___Interactor){
         self.interactor = interactor
     }
     
