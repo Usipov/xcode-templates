@@ -4,7 +4,7 @@ final class ___FILEBASENAMEASIDENTIFIER___ViewController: UIViewController {
 	var output: ___FILEBASENAMEASIDENTIFIER___ViewOutput?
 
 	//MARK: - Init
-    init(presenter: SelectLocationViewOutput) {
+    init(presenter: ___FILEBASENAMEASIDENTIFIER___ViewOutput) {
         super.init(nibName: nil, bundle: nil)
     }
 
