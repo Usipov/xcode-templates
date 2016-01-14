@@ -5,9 +5,11 @@ final class ___FILEBASENAMEASIDENTIFIER___AssemblyImpl: ___FILEBASENAMEASIDENTIF
     static func module() -> ___FILEBASENAMEASIDENTIFIER___Module {
         
         let interactor = ___FILEBASENAMEASIDENTIFIER___InteractorImpl()
+        let router = ___FILEBASENAMEASIDENTIFIER___RouterImpl()
         
         let presenter = ___FILEBASENAMEASIDENTIFIER___Presenter(
-            interactor: interactor
+            interactor: interactor,
+            router: router
         )
         
         let viewController = ___FILEBASENAMEASIDENTIFIER___ViewController(
