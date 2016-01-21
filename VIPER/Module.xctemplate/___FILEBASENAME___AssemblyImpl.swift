@@ -2,7 +2,7 @@ import UIKit
 
 final class ___FILEBASENAMEASIDENTIFIER___AssemblyImpl: ___FILEBASENAMEASIDENTIFIER___Assembly {
     
-    static func module() -> ___FILEBASENAMEASIDENTIFIER___Module {
+    func module() -> ___FILEBASENAMEASIDENTIFIER___Module {
         
         let interactor = ___FILEBASENAMEASIDENTIFIER___InteractorImpl()
         let router = ___FILEBASENAMEASIDENTIFIER___RouterImpl()
