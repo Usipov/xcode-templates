@@ -13,7 +13,7 @@ final class ___FILEBASENAMEASIDENTIFIER___AssemblyImpl: ___FILEBASENAMEASIDENTIF
         )
         
         let viewController = ___FILEBASENAMEASIDENTIFIER___ViewController(
-            presenter: presenter
+            output: presenter
         )
         
         presenter.viewInput = viewController
