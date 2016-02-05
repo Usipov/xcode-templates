@@ -1,5 +1,5 @@
-import Foundation
+import UIKit
 
-protocol ___FILEBASENAMEASIDENTIFIER___Assembly {
-    static func module() -> ___FILEBASENAMEASIDENTIFIER___Module
+protocol ___FILEBASENAMEASIDENTIFIER___Assembly: class {
+    func module() -> (UIViewController, ___FILEBASENAMEASIDENTIFIER___ModuleInput)
 }

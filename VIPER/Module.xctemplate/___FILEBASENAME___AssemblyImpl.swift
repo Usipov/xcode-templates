@@ -1,8 +1,11 @@
 import UIKit
 
-final class ___FILEBASENAMEASIDENTIFIER___AssemblyImpl: ___FILEBASENAMEASIDENTIFIER___Assembly {
+final class ___FILEBASENAMEASIDENTIFIER___AssemblyImpl {}
+
+// MARK: - ___FILEBASENAMEASIDENTIFIER___Assembly
+extension ___FILEBASENAMEASIDENTIFIER___AssemblyImpl: ___FILEBASENAMEASIDENTIFIER___Assembly {
     
-    static func module() -> ___FILEBASENAMEASIDENTIFIER___Module {
+    func module() -> (UIViewController, ___FILEBASENAMEASIDENTIFIER___ModuleInput) {
         
         let interactor = ___FILEBASENAMEASIDENTIFIER___InteractorImpl()
         let router = ___FILEBASENAMEASIDENTIFIER___RouterImpl()
@@ -13,17 +16,13 @@ final class ___FILEBASENAMEASIDENTIFIER___AssemblyImpl: ___FILEBASENAMEASIDENTIF
         )
         
         let viewController = ___FILEBASENAMEASIDENTIFIER___ViewController(
-            presenter: presenter
+            output: presenter
         )
         
         presenter.viewInput = viewController
         interactor.output = presenter
         
-        return ___FILEBASENAMEASIDENTIFIER___Module(
-            view: viewController.view,
-            viewController: viewController,
-            moduleInput: presenter
-        )
+        return (viewController, presenter)
         
     }
     

@@ -1,5 +1,5 @@
 import Foundation
 
-protocol ___FILEBASENAMEASIDENTIFIER___ModuleInput {
+protocol ___FILEBASENAMEASIDENTIFIER___ModuleInput: class {
     
 }

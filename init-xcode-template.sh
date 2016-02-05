@@ -9,11 +9,11 @@ fi
 
 cd "$TEMPLATE_PATH"
 
-REPO_FOLDER_NAME=xcode-templates
+REPO_FOLDER_NAME=tyusipov-xcode-templates
 
 if [ -d "$REPO_FOLDER_NAME" ]; then
 cd "$REPO_FOLDER_NAME"
 git pull
 else
-git clone https://github.com/esuvorov/xcode-templates.git
+git clone https://github.com/usipov/xcode-templates.git
 fi

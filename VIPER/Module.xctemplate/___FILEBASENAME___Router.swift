@@ -1,5 +1,5 @@
 import Foundation
 
-protocol ___FILEBASENAMEASIDENTIFIER___Router {
+protocol ___FILEBASENAMEASIDENTIFIER___Router: class {
     
 }
