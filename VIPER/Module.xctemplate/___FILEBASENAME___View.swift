@@ -1,6 +1,6 @@
 import UIKit
 
-final class ___FILEBASENAMEASIDENTIFIER___ViewImpl: UIView {
+final class ___FILEBASENAMEASIDENTIFIER___View: UIView {
     var output: ___FILEBASENAMEASIDENTIFIER___ViewOutput
     
     //MARK: - Init
@@ -12,10 +12,10 @@ final class ___FILEBASENAMEASIDENTIFIER___ViewImpl: UIView {
     required init?(coder aDecoder: NSCoder) {
         fatalError("init(coder:) has not been implemented")
     }
-
+    
 }
 
 //MARK: - ___FILEBASENAMEASIDENTIFIER___ViewInput
-extension ___FILEBASENAMEASIDENTIFIER___ViewImpl: ___FILEBASENAMEASIDENTIFIER___ViewInput  {
+extension ___FILEBASENAMEASIDENTIFIER___View: ___FILEBASENAMEASIDENTIFIER___ViewInput  {
     
 }

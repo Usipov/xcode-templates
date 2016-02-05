@@ -2,12 +2,12 @@ import Foundation
 
 final class ___FILEBASENAMEASIDENTIFIER___Presenter {
     private let interactor: ___FILEBASENAMEASIDENTIFIER___InteractorInput
-    private let router: ___FILEBASENAMEASIDENTIFIER___Router
+    private let router: ___FILEBASENAMEASIDENTIFIER___RouterInput
     
-    weak var viewInput: ___FILEBASENAMEASIDENTIFIER___ViewInput?
+    weak var view: ___FILEBASENAMEASIDENTIFIER___ViewInput?
     
     //MARK: - Init
-    init(interactor: ___FILEBASENAMEASIDENTIFIER___InteractorInput, router: ___FILEBASENAMEASIDENTIFIER___Router) {
+    init(interactor: ___FILEBASENAMEASIDENTIFIER___InteractorInput, router: ___FILEBASENAMEASIDENTIFIER___RouterInput) {
         self.interactor = interactor
         self.router = router
     }
