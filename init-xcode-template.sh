@@ -15,5 +15,5 @@ if [ -d "$REPO_FOLDER_NAME" ]; then
 cd "$REPO_FOLDER_NAME"
 git pull
 else
-git clone https://github.com/usipov/xcode-templates.git
+git clone https://github.com/Usipov/xcode-templates.git
 fi
