@@ -28,8 +28,22 @@ extension ___FILEBASENAMEASIDENTIFIER___AssemblyImpl: ___FILEBASENAMEASIDENTIFIE
     
     func module() -> UIViewController {
         
-        let fullModule: (viewController: UIViewController, moduleInput: ___FILEBASENAMEASIDENTIFIER___ModuleInput) = module()
-        return fullModule.viewController
+        let interactor = ___FILEBASENAMEASIDENTIFIER___Interactor()
+        let router = ___FILEBASENAMEASIDENTIFIER___Router()
+        
+        let presenter = ___FILEBASENAMEASIDENTIFIER___Presenter(
+            interactor: interactor,
+            router: router
+        )
+        
+        let viewController = ___FILEBASENAMEASIDENTIFIER___ViewController(
+            output: presenter
+        )
+        
+        presenter.view = viewController
+        interactor.output = presenter
+        
+        return viewController
 
     }
     
@@ -56,9 +70,22 @@ extension ___FILEBASENAMEASIDENTIFIER___AssemblyImpl: ___FILEBASENAMEASIDENTIFIE
     
     func module() -> UIView {
         
-        let fullModule: (view: UIView, moduleInput: ___FILEBASENAMEASIDENTIFIER___ModuleInput) = module()
-        return fullModule.view
+        let interactor = ___FILEBASENAMEASIDENTIFIER___Interactor()
+        let router = ___FILEBASENAMEASIDENTIFIER___Router()
         
+        let presenter = ___FILEBASENAMEASIDENTIFIER___Presenter(
+            interactor: interactor,
+            router: router
+        )
+        
+        let view = ___FILEBASENAMEASIDENTIFIER___View(
+            output: presenter
+        )
+        
+        presenter.view = view
+        interactor.output = presenter
+        
+        return view
     }
     
 }
