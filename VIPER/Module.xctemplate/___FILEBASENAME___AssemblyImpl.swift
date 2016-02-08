@@ -16,11 +16,11 @@ extension ___FILEBASENAMEASIDENTIFIER___AssemblyImpl: ___FILEBASENAMEASIDENTIFIE
         )
         
         let viewController = ___FILEBASENAMEASIDENTIFIER___ViewController(
-            output: presenter
+            viewOutput: presenter
         )
         
         presenter.view = viewController
-        interactor.output = presenter
+        interactor.interactorOutput = presenter
         
         return (viewController, presenter)
         
@@ -37,11 +37,11 @@ extension ___FILEBASENAMEASIDENTIFIER___AssemblyImpl: ___FILEBASENAMEASIDENTIFIE
         )
         
         let viewController = ___FILEBASENAMEASIDENTIFIER___ViewController(
-            output: presenter
+            viewOutput: presenter
         )
         
         presenter.view = viewController
-        interactor.output = presenter
+        interactor.interactorOutput = presenter
         
         return viewController
 
@@ -58,11 +58,11 @@ extension ___FILEBASENAMEASIDENTIFIER___AssemblyImpl: ___FILEBASENAMEASIDENTIFIE
         )
         
         let view = ___FILEBASENAMEASIDENTIFIER___View(
-            output: presenter
+            viewOutput: presenter
         )
         
         presenter.view = view
-        interactor.output = presenter
+        interactor.interactorOutput = presenter
         
         return (view, presenter)
  
@@ -79,11 +79,11 @@ extension ___FILEBASENAMEASIDENTIFIER___AssemblyImpl: ___FILEBASENAMEASIDENTIFIE
         )
         
         let view = ___FILEBASENAMEASIDENTIFIER___View(
-            output: presenter
+            viewOutput: presenter
         )
         
         presenter.view = view
-        interactor.output = presenter
+        interactor.interactorOutput = presenter
         
         return view
     }

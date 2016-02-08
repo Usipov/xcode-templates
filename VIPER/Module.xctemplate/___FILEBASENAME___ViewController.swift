@@ -1,11 +1,11 @@
 import UIKit
 
 final class ___FILEBASENAMEASIDENTIFIER___ViewController: UIViewController {
-    var output: ___FILEBASENAMEASIDENTIFIER___ViewOutput
+    let viewOutput: ___FILEBASENAMEASIDENTIFIER___ViewOutput
     
     //MARK: - Init
-    init(output: ___FILEBASENAMEASIDENTIFIER___ViewOutput) {
-        self.output = output
+    init(viewOutput: ___FILEBASENAMEASIDENTIFIER___ViewOutput) {
+        self.viewOutput = viewOutput
         super.init(nibName: nil, bundle: nil)
     }
     

@@ -1,7 +1,7 @@
 import Foundation
 
 final class ___FILEBASENAMEASIDENTIFIER___Interactor {
-    weak var output: ___FILEBASENAMEASIDENTIFIER___InteractorOutput?
+    weak var interactorOutput: ___FILEBASENAMEASIDENTIFIER___InteractorOutput?
 }
 
 //MARK: - ___FILEBASENAMEASIDENTIFIER___InteractorInput
