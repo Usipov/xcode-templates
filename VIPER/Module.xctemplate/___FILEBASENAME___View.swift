@@ -1,9 +1,9 @@
 import UIKit
 
-final class ___FILEBASENAMEASIDENTIFIER___View: UIView {
+final class ___FILEBASENAMEASIDENTIFIER___View: UIView, ___FILEBASENAMEASIDENTIFIER___ViewInput {
     let viewOutput: ___FILEBASENAMEASIDENTIFIER___ViewOutput
     
-    //MARK: - Init
+    // MARK: - Init
     init(viewOutput: ___FILEBASENAMEASIDENTIFIER___ViewOutput) {
         self.viewOutput = viewOutput
         super.init(frame: .zero)
@@ -13,9 +13,5 @@ final class ___FILEBASENAMEASIDENTIFIER___View: UIView {
         fatalError("init(coder:) has not been implemented")
     }
     
-}
-
-//MARK: - ___FILEBASENAMEASIDENTIFIER___ViewInput
-extension ___FILEBASENAMEASIDENTIFIER___View: ___FILEBASENAMEASIDENTIFIER___ViewInput  {
-    
+    // MARK: - ___FILEBASENAMEASIDENTIFIER___ViewInput
 }

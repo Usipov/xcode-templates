@@ -1,9 +1,9 @@
 import UIKit
 
-final class ___FILEBASENAMEASIDENTIFIER___ViewController: UIViewController {
+final class ___FILEBASENAMEASIDENTIFIER___ViewController: UIViewController, ___FILEBASENAMEASIDENTIFIER___ViewInput {
     let viewOutput: ___FILEBASENAMEASIDENTIFIER___ViewOutput
     
-    //MARK: - Init
+    // MARK: - Init
     init(viewOutput: ___FILEBASENAMEASIDENTIFIER___ViewOutput) {
         self.viewOutput = viewOutput
         super.init(nibName: nil, bundle: nil)
@@ -13,9 +13,5 @@ final class ___FILEBASENAMEASIDENTIFIER___ViewController: UIViewController {
         fatalError("init(coder:) has not been implemented")
     }
     
-}
-
-//MARK: - ___FILEBASENAMEASIDENTIFIER___ViewInput
-extension ___FILEBASENAMEASIDENTIFIER___ViewController: ___FILEBASENAMEASIDENTIFIER___ViewInput  {
-    
+    // MARK: - ___FILEBASENAMEASIDENTIFIER___ViewInput
 }
